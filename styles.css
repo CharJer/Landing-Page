@@ -5,5 +5,39 @@
 }
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 }
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.navbar{
+    background-color: #1f2937;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLogo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 16px
+}
+
