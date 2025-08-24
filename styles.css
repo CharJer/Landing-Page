@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 2px solid red ;
+    /* outline: 2px solid red ; */
 }
 
 body {
@@ -137,7 +137,7 @@ body {
     font-size: 36px;
     color: #1f2937;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: 300;
     margin-bottom: 20px;
 }
 
@@ -148,6 +148,8 @@ body {
 }
 
 .call-to-action {
+    margin: 80px;
+    border-radius: 10px;
     background-color: #3B82F6;
     color: white;
     padding: 50px 0px;
@@ -155,6 +157,36 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    /* max-width: 500px; */
+}
+
+.call-label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.call-text, .call-header {
+    text-align: left;
+}
+
+.call-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.call-button {
+    background-color: #3B82F6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 100px;
+    font-weight: bold;
+    outline: solid white 2px;
 }
 
 .footer {
